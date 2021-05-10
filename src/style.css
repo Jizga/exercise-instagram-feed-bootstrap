@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+#title {
+    font-family: 'Lobster', cursive;
+    font-size: 200%;
+}
+
+.mybtnActivate:hover, .mybtnActivate:active{
+    background-color: rgb(104, 101, 101);
+}
+
+.mybtnActivate a i:hover, .mybtnActivate a i:active{
+    color: white;
+}
