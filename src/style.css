@@ -28,3 +28,8 @@
 .myImg{
     object-fit: cover;
 }
+
+.dropdown-menu {
+    left: -5rem;
+    top: 60px;
+}
