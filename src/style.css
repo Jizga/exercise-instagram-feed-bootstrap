@@ -7,13 +7,24 @@
 
 /* not active */
 .nav-pills .nav-link:not(.active) {
-    background-color: transparent;
+    background-color: none;
     color: rgb(43, 42, 42);
 }
 
 /* active (faded) */
-.nav-pills .nav-link:focus {
+.nav-pills .nav-link.active, 
+.nav-pills .show>.nav-link:focus, 
+.nav-pills .show>.nav-link:active {
     background-color: rgb(43, 42, 42);
     color: white;
 }
 
+.myCard{
+    width: 20rem;
+    height: 20rem;
+    
+}
+
+.myImg{
+    object-fit: cover;
+}
