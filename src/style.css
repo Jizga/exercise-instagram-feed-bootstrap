@@ -5,10 +5,15 @@
     font-size: 200%;
 }
 
-.mybtnActivate:hover, .mybtnActivate:active{
-    background-color: rgb(104, 101, 101);
+/* not active */
+.nav-pills .nav-link:not(.active) {
+    background-color: transparent;
+    color: rgb(43, 42, 42);
 }
 
-.mybtnActivate a i:hover, .mybtnActivate a i:active{
+/* active (faded) */
+.nav-pills .nav-link:focus {
+    background-color: rgb(43, 42, 42);
     color: white;
 }
+
